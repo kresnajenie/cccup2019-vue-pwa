@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ccup-score</title>
+    <title>Canisius College Cup 2019</title>
     <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-16x16.png">
     <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
@@ -25,6 +25,30 @@
         for (var file of chunk.files) {
           if (file.match(/\.(js|css)$/)) { %>
     <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="CC Cup 2019" property="og:title"/>
+  <meta charset="utf-8">
+  <meta content="canisius college cup 2019, cc cup 2019, kolese kanisius, osis,kanisius,2019,90 tahun cc, 90 tahun Kanisius" name="keywords"/>
+  <meta content="Wadah ekspresi perkembangan talenta jiwa-jiwa muda dalam bidang olahraga dan seni. Ikuti Kompetisinya di SMA Kolese Kanisius Jakarta!" property="og:description"/>
+  <meta content="Wadah ekspresi perkembangan talenta jiwa-jiwa muda dalam bidang olahraga dan seni. Ikuti Kompetisinya di SMA Kolese Kanisius Jakarta!" name="description"/>
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato|Montserrat|Open+Sans|Open+Sans+Condensed:300|Oranienbaum|Oswald|Playfair+Display|Roboto|Roboto+Condensed|Vollkorn:900" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel= "stylesheet" href="./static/css/landing.css">
+  <link rel="stylesheet" href="./static/css/cccup-fonts.css">
+  <meta content="1024652052" property="fb:admins"/>
+  <link rel="stylesheet" href="./static/css/hover.css">
+  <link rel="stylesheet" href="./static/css/cccup-button.css">
+  <link rel="stylesheet" href="./static/css/font-awesome.css">
+  <link rel="stylesheet" href="./static/css/404.css" type="text/css">
+  <link rel="stylesheet" href="./static/css/navbar-landing.css" type="text/css">
+  <link rel="stylesheet" href="./static/css/div.css" type="text/css">
+  <link rel='stylesheet' type='text/css' href='./static/css/cccup-uploadfile.css'/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.2.0/css/iziToast.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </head>
   <body>
     <noscript>

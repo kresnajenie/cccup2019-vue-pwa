@@ -1,0 +1,265 @@
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	font-family: 'Legendm54';
+}
+table tr td {
+	font-family: -apple-system, 'Segoe UI';
+}
+a, a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+.bg-norepeat{
+	background: url(../images/02_bg/bg_index_2.jpg);
+	position: center;
+	vertical-align: center;
+	background-size:cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.blunt-content2 {
+	display: table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width:none;
+	text-align:center;
+	height: 100%;
+	background: url(../images/02_bg/bg_index.jpg);
+	position: center;
+	vertical-align: center;
+	background-size: cover;
+	background-position:center;
+	background-repeat:none;
+}
+.blunt-content2 h1 {
+	font-family: 'Oswald';
+}
+
+.intro, .intro-90, .intro-80, .intro-70, .intro-60, .intro-50, .intro-40, .intro-30, .intro-sm, .intro-sm-90, .intro-sm-80, .intro-sm-70, .intro-sm-60, .intro-sm-50, .intro-sm-40, .intro-sm-30, .intro-md, .intro-md-90, .intro-md-80, .intro-md-70, .intro-md-60, .intro-md-50, .intro-md-40, .intro-md-30, .intro-lg, .intro-lg-90, .intro-lg-80, .intro-lg-70, .intro-lg-60, .intro-lg-50, .intro-lg-40, .intro-lg-30, .intro-xl, .intro-xl-90, .intro-xl-80, .intro-xl-70, .intro-xl-60, .intro-xl-50, .intro-xl-40, .intro-xl-30{
+	width:100%;
+	height:100%;
+	margin:auto;
+	display:table;
+	top:0;
+	position:relative;
+	background-color:inherit;
+	z-index:10;
+}
+
+.intro{max-height: 100%;}
+.intro-90{max-height: 90%;}
+.intro-80{max-height: 80%;}
+.intro-70{max-height: 70%;}
+.intro-60{max-height: 60%;}
+.intro-50{max-height: 50%;}
+.intro-40{max-height: 40%;}
+.intro-30{max-height: 30%;}
+
+@media (min-width: 576px) {
+.intro-sm{max-height: 100%;}
+.intro-sm-90{max-height: 90%;}
+.intro-sm-80{max-height: 80%;}
+.intro-sm-70{max-height: 70%;}
+.intro-sm-60{max-height: 60%;}
+.intro-sm-50{max-height: 50%;}
+.intro-sm-40{max-height: 40%;}
+.intro-sm-30{max-height: 30%;}
+}
+
+@media (min-width: 768px) {
+.intro-md{max-height: 100%;}
+.intro-md-90{max-height: 90%;}
+.intro-md-80{max-height: 80%;}
+.intro-md-70{max-height: 70%;}
+.intro-md-60{max-height: 60%;}
+.intro-md-50{max-height: 50%;}
+.intro-md-40{max-height: 40%;}
+.intro-md-30{max-height: 30%;}
+}
+
+@media (min-width: 992px) {
+.intro-lg{max-height: 100%;}
+.intro-lg-90{max-height: 90%;}
+.intro-lg-80{max-height: 80%;}
+.intro-lg-70{max-height: 70%;}
+.intro-lg-60{max-height: 60%;}
+.intro-lg-50{max-height: 50%;}
+.intro-lg-40{max-height: 40%;}
+.intro-lg-30{max-height: 30%;}
+}
+
+@media (min-width: 1200px) {
+.intro-xl{max-height: 100%;}
+.intro-xl-90{max-height: 90%;}
+.intro-xl-80{max-height: 80%;}
+.intro-xl-70{max-height: 70%;}
+.intro-xl-60{max-height: 60%;}
+.intro-xl-50{max-height: 50%;}
+.intro-xl-40{max-height: 40%;}
+.intro-xl-30{max-height: 30%;}
+}
+
+.content{
+	display: table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width:none;
+	text-align:center !important;
+}
+
+.button{
+	border-radius:5px;
+	padding:1vw 1.9vw 1vw 2vw;
+	transition:all 0.3s;
+	text-align:center;
+	text-decoration:none;
+	margin-top:5%;
+	letter-spacing:0.5vw;
+}
+
+.navbar-shadow{
+	box-shadow:0px 10px 5px 3px rgba(25, 22, 39, 0.3), 0px 7px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.img-logo{
+	width:20vw;
+	height:auto;
+}
+
+.img-border img{
+	width:10em;
+	height:10em;
+	margin:1.5vw 0 1.5vw 0;
+}
+
+/* Footer Aryo */
+.footer {
+  flex-shrink: 0;margin-top: -50px;
+  bottom: -20;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #000;
+}
+@media (min-height: 1000px) {
+	.footer {
+	  flex-shrink: 0;margin-top: -50px;
+	  bottom: -20;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: auto;
+	  margin-top: 10px;
+	  padding-top: 10px;
+	  background-color: #025AA5;
+	  position: fixed;
+	}
+}
+	.footer2 {
+	  flex-shrink: 0;margin-top: -50px;
+	  bottom: -20;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: auto;
+	  margin-top: 10px;
+	  padding-top: 10px;
+	  background-color: #f7f7f9;
+	}
+    .landing_button{
+        background-color: #b03116;
+        border: 3px solid white;
+        color: white;
+        padding: 50px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 35px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .landing_button:hover{
+        background-color: #962b14;
+        border: 3px solid #b3aead;
+        color: white;
+        padding: 50px 50px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 35px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .landing_text{
+        font-size: 5em;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .landing_text2{
+        font-size: 2.5em;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .landing_text3{
+        font-size: 1em;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .footerdiv{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 2em;
+    }
+    .headerdiv{
+        background-color: rgba(199, 74, 12, 1);
+        color: white;
+        font-size: 2em;
+    }
+    .headerlogo{
+        height: 1.5em;
+    }
+    .welcome{
+        width: 100%;
+    }
+    .merch{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+        color: white;
+    }
+    .abouttext{
+        font-size: 1.5em;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 16px;
+        background: #555;
+        color: #f1f1f1;
+    }
+    .titlemerchtext{
+        background: rgba(0, 0, 0, 0.3);
+        font-size: 3em;
+        padding-left: 35px;
+        padding-right: 35px;
+        color: white;
+    }
+    .logowelcome{
+        width: 100%;
+    }
+    }
+
+}
+
+}
