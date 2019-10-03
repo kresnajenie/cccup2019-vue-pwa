@@ -2,46 +2,30 @@
   <div class="hello">
     <!-- Start Carousel News Top -->
     <section>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false"> 
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="#"><img class="d-block w-100" src="../../static/images/04_merch/merchblack.png" alt="First slide"></a>
-            <div class="carousel-caption">
-              <a href="#"><h5>Ini berita</h5>
-              <p>Ini isinya</p></a>
-            </div>
+    <div id="welcome" class="container-fluid">
+      <div class="col-12">
+        <img src="../../static/images/01_logo/titleweb.png" style="width: 100%;margin-bottom: 50px;margin-top: 25px">
+      </div>
+      <div class="text-center row d-flex align-items-end " style="padding-bottom: 25px;">
+        <div class="container testimonial-group">
+        <div class="row text-center">
+          <div class="col-10 offset-1 p-2 mr-2 boxfill hvr-push newsthumb">
+            <h3>News</h3>
+            <h1>Closing CC CUP</h1>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" href="canisiuscup.html" src="../../static/images/04_merch/merchblack.png" alt="Second slide">
-            <div class="carousel-caption">
-              <h5>Ini berita</h5>
-              <p>Ini isinya</p>
-            </div>
-            
+          <div class="col-10 offset-1 p-2 mr-2 boxfill hvr-push newsthumb">
+            <h3>News</h3>
+            <h1>Closing CC CUP</h1>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../../static/images/04_merch/merchblack.png" alt="Third slide">
-            <div class="carousel-caption">
-              <h5>Ini berita</h5>
-              <p>Ini isinya</p>
-            </div>
+          <div class="col-10 offset-1 p-2 mr-2 boxfill hvr-push newsthumb">
+            <h3>News</h3>
+            <h1>Closing CC CUP</h1>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-    </section>
+    </div>
+    </div>
+  </section>
     <!-- End Carousel News Bottom -->
 
     <!-- Start First Menu -->
@@ -49,21 +33,31 @@
       <div class="container text-center px-3">
         <div class="row d-flex justify-content-around">
           <div class="col p-2 mx-2 box hvr-push" onclick="window.location='/';">
-            <img src="../../static/images/home.png" style="width: 75%;"><br>
-            Home
+            <img src="../../static/images/sheriff.png" style="width: 75%;"><br>
+            Closing
           </div>
           <div class="col p-2 mx-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/newspaper.png" style="width: 75%;"><br>
             News
           </div>
-          <div class="col p-2 mx-2 box hvr-push " onclick="window.location='/';">
+          <!-- <div class="col p-2 mx-2 box hvr-push " onclick="window.location='/';">
             <img src="../../static/images/scoreboard.png" style="width: 75%;"><br>
             Score
-          </div>
-          <div class="col p-2 mx-2 box hvr-push" onclick="window.location='/';">
+          </div> -->
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/tshirt.png" style="width: 75%;"><br>
             Merch
           </div>
+          <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
+            <img src="../../static/images/info512.png" style="width: 75%;"><br>
+            About
+          </div>
+          <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
+            <img src="../../static/images/place512.png" style="width: 75%;"><br>
+            Denah
+          </div> 
         </div>
       </div>
     </section>
@@ -74,10 +68,18 @@
       <div class="container testimonial-group">
         <h1>NEWS</h1>
         <div class="row text-center">
-          <div class="col-5 p-2 mx-2 box newsthumb">lorem ipsum</div>
-          <div class="col-5 p-2 mx-2 box newsthumb">lorem ipsum</div>
-          <div class="col-5 p-2 mx-2 box newsthumb">lorem ipsum</div>
-          <div class="col-5 p-2 mx-2 box newsthumb">lorem ipsum</div>
+          <div class="col-5 p-2 mx-2 box newsthumb">
+            <h3>News</h3>
+            <h1>CC CUP</h1>
+          </div>
+          <div class="col-5 p-2 mx-2 box newsthumb">
+            <h3>News</h3>
+            <h1>CC CUP</h1>
+          </div>
+          <div class="col-5 p-2 mx-2 box newsthumb">
+            <h3>News</h3>
+            <h1>CC CUP</h1>
+          </div>
         </div>
       </div>
     </section>
@@ -85,6 +87,9 @@
 
     <!-- Start Merch Carousel -->
     <section style="margin-top: 50px;">
+      <div class="px-4">
+        <h1>MERCH</h1>
+      </div>
       <div class="merch text-center">
         <div id="merch" class="carousel slide" data-ride="carousel">
             
@@ -156,28 +161,25 @@
     <!-- End Announcments -->
 
     <!-- Start NavBar -->
-    <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
-        <img class="headerlogo" src="../../static/images/01_logo/logo-horizontal.png" style="width: 25%">
-      </a>
-    </nav>
-    <nav class="navbar fixed-bottom text-center navbar-light bg-light d-flex justify-content-around pl-5">
-      <a href="/">
-        <img src="../../static/images/homeicon.png" width="50%"><br>
-        <span style="font-size: 0.7em">Home</span>
-      </a>
-      <a href="/">
-        <img src="../../static/images/newspaper64.png" width="50%"><br>
-        <span style="font-size: 0.7em">News</span>
-      </a>
-      <a href="/">
-        <img src="../../static/images/scoreboard64.png" width="50%"><br>
-        <span style="font-size: 0.7em">Score</span>
-      </a>
-      <a href="/">
-        <img src="../../static/images/merchandise64.png" width="50%"><br>
-        <span style="font-size: 0.7em">Merch</span>
-      </a>
+    <nav class="navbar fixed-bottom text-center navbar-light bg-light d-flex justify-content-around">
+      <div class="row">
+          <div class="col hvr-push mx-2" onclick="window.location='/';">
+            <img src="../../static/images/homeicon.png" width="50%"><br>
+              <span style="font-size: 0.7em">Home</span>
+          </div>
+          <div class="col hvr-push mx-2" onclick="window.location='/';">
+            <img src="../../static/images/newspaper64.png" width="50%"><br>
+            <span style="font-size: 0.7em">News</span>
+          </div>
+          <!-- <div class="col hvr-push mx-2" onclick="window.location='s/';">
+            <img src="../../static/images/scoreboard64.png" width="50%"><br>
+            <span style="font-size: 0.7em">Score</span>
+          </div> -->
+          <div class="col hvr-push mx-2" onclick="window.location='s/';">
+            <img src="../../static/images/merchandise64.png" width="50%"><br>
+            <span style="font-size: 0.7em">Merch</span>
+          </div>
+      </div>
     </nav>
     <!-- End NavBar -->
 
@@ -215,7 +217,10 @@
   }
 </script>
 
-<style>
+<style type="text/css">
+  h3 {
+    color: rgb(245, 46, 46)
+  }
   .center-er{
     margin:auto;
   }
@@ -223,29 +228,36 @@
     bottom: 0;
   }
   #welcome{
-    /* background-image: url(../../static/images/02_bg/webwelcomeup.png); */
+    background-image: url(../../static/images/02_bg/webwelcomeup.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
   #about{
-    /* background-image: '../../static/images/'; */
+    background-image: url(../../static/images/02_bg/webwelcome.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
   .vcenter {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .box{
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
     border: 1px solid #c2bcc2;
+  }
+  .boxfill{
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #c2bcc2;
+    background: white;
   }
   /* The heart of the matter */
     .testimonial-group > .row {
@@ -257,7 +269,23 @@
       display: inline-block;
       float: none;
     }
+    .testimonial-group > .row > .col-10 {
+      display: inline-block;
+      float: none;
+    }
     .newsthumb{
       height: 125px;
     }
-    </style>
+    #welcome{
+    background-image: url(../../static/images/02_bg/webwelcomeup.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .vcenter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+</style>
