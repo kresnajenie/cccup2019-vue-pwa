@@ -70,7 +70,7 @@
         <div class="row text-center">
           <div class="col-5 p-2 mx-2 box newsthumb">
             <h3>News</h3>
-            <h1>CC CUP</h1>
+            <h1>Closing CC CUP</h1>
           </div>
           <div class="col-5 p-2 mx-2 box newsthumb">
             <h3>News</h3>
@@ -145,7 +145,7 @@
     <!-- Start Announcments Footer -->
     <section class="px-3" style="margin-top: 50px;margin-bottom: 100px">
       <div class="container">
-        <h1>Announcment</h1>
+        <h1>Announcement</h1>
         <div class="row my-3">
           <div class="col-4">
             Technical Meeting
@@ -262,7 +262,6 @@
   /* The heart of the matter */
     .testimonial-group > .row {
       overflow-x: auto;
-      white-space: nowrap;
       flex-wrap: nowrap;
     }
     .testimonial-group > .row > .col-5 {
