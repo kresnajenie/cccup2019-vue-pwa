@@ -1,0 +1,27 @@
+.background-black1{background-color:rgb(0,0,0) !important;}
+.background-black2{background-color:rgb(20,20,20) !important;}
+.background-black3{background-color:rgb(33,33,33) !important;}
+.background-black4{background-color:rgb(24,24,24) !important;}
+
+.background-white1{background-color:rgb(255,255,255) !important;}
+.background-white2{background-color:rgb(255,255,242) !important;}
+.background-white3{background-color:rgb(255,255,244) !important;}
+.background-white4{background-color:rgb(249,249,249) !important;}
+
+.div-glass1, .div-glass2, .div-glass3, .div-darkglass1, .div-darkglass2, .div-darkglass3 {
+	box-shadow:0px 0px 20px 1px rgba(0,0,0,1);}
+
+.div-glass1{background-color:rgba(0,0,0,0.10);}
+.div-glass2{background-color:rgba(20,10,15,0.20);}
+.div-glass3{background-color:rgba(10,0,20,0.30);}
+
+.div-darkglass1{background-color:rgba(0,0,0.30);}
+.div-darkglass2{background-color:rgba(0,0,0,0.30);}
+.div-darkglass3{background-color:rgba(0,0,0,0.30);}
+
+.div-sh-1 {box-shadow:0px 0px 20px 10px rgba(0,0,0,0.75);}
+.div-sh-2 {box-shadow:0px 0px 30px 12px rgba(0,0,0,0.65);}
+
+.div-border-pill{border-radius:30vw;}
+
+.border-none{border-style:none !important}

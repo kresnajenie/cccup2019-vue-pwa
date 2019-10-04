@@ -36,35 +36,35 @@
             <img src="../../static/images/sheriff.png" style="width: 75%;"><br>
             Closing
           </div>
-          <div class="col p-2 mx-2 box hvr-push" onclick="window.location='/';">
+          <div class="col p-2 mx-2 box hvr-push " onclick="window.location='/';">
+            <img src="../../static/images/scoreboard.png" style="width: 75%;"><br>
+            Score
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/newspaper.png" style="width: 75%;"><br>
             News
           </div>
-          <!-- <div class="col p-2 mx-2 box hvr-push " onclick="window.location='/';">
-            <img src="../../static/images/scoreboard.png" style="width: 75%;"><br>
-            Score
-          </div> -->
-        </div>
-        <div class="row d-flex justify-content-around">
           <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/tshirt.png" style="width: 75%;"><br>
             Merch
           </div>
-          <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
+          <!-- <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/info512.png" style="width: 75%;"><br>
             About
           </div>
           <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/place512.png" style="width: 75%;"><br>
             Denah
-          </div> 
+          </div>  -->
         </div>
       </div>
     </section>
     <!-- End First Menu -->
 
     <!-- Start Second News Carousel -->
-    <section class="px-3" style="margin-top: 50px;">
+    <!-- <section class="px-3" style="margin-top: 50px;">
       <div class="container testimonial-group">
         <h1>NEWS</h1>
         <div class="row text-center">
@@ -82,7 +82,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Second News Carousel -->
 
     <!-- Start Merch Carousel -->
