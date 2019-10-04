@@ -7,7 +7,7 @@
         <img src="../../static/images/01_logo/titleweb.png" style="width: 100%;margin-bottom: 50px;margin-top: 25px">
       </div>
       <div class="text-center row d-flex align-items-end " style="padding-bottom: 25px;">
-        <div class="container testimonial-group">
+        <!-- <div class="container testimonial-group">
         <div class="row text-center">
           <div class="col-10 offset-1 p-2 mr-2 boxfill hvr-push newsthumb">
             <h3>News</h3>
@@ -22,7 +22,7 @@
             <h1>Closing CC CUP</h1>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     </div>
   </section>
@@ -32,33 +32,33 @@
     <section class="px-3" style="margin-top: 20px;">
       <div class="container text-center px-3">
         <div class="row d-flex justify-content-around">
-          <div class="col p-2 mx-2 box hvr-push" onclick="window.location='/';">
+          <div class="col p-2 mx-2 box hvr-push" onclick="window.location='#/closing';">
             <img src="../../static/images/sheriff.png" style="width: 75%;"><br>
             Closing
           </div>
-          <div class="col p-2 mx-2 box hvr-push " onclick="window.location='/';">
+          <div class="col p-2 mx-2 box hvr-push " onclick="window.location='#/score';">
             <img src="../../static/images/scoreboard.png" style="width: 75%;"><br>
             Score
           </div>
+          <div class="col p-2 mx-2 box hvr-push" onclick="window.location='#/merch';">
+            <img src="../../static/images/tshirt.png" style="width: 75%;"><br>
+            Merch
+          </div>
         </div>
-        <div class="row d-flex justify-content-around">
+        <!-- <div class="row d-flex justify-content-around">
           <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/newspaper.png" style="width: 75%;"><br>
             News
           </div>
           <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
-            <img src="../../static/images/tshirt.png" style="width: 75%;"><br>
-            Merch
-          </div>
-          <!-- <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/info512.png" style="width: 75%;"><br>
             About
           </div>
           <div class="col p-2 m-2 box hvr-push" onclick="window.location='/';">
             <img src="../../static/images/place512.png" style="width: 75%;"><br>
             Denah
-          </div>  -->
-        </div>
+          </div> 
+        </div> -->
       </div>
     </section>
     <!-- End First Menu -->
@@ -160,28 +160,7 @@
     </section>
     <!-- End Announcments -->
 
-    <!-- Start NavBar -->
-    <nav class="navbar fixed-bottom text-center navbar-light bg-light d-flex justify-content-around">
-      <div class="row">
-          <div class="col hvr-push mx-2" onclick="window.location='/';">
-            <img src="../../static/images/homeicon.png" width="50%"><br>
-              <span style="font-size: 0.7em">Home</span>
-          </div>
-          <div class="col hvr-push mx-2" onclick="window.location='/';">
-            <img src="../../static/images/newspaper64.png" width="50%"><br>
-            <span style="font-size: 0.7em">News</span>
-          </div>
-          <!-- <div class="col hvr-push mx-2" onclick="window.location='s/';">
-            <img src="../../static/images/scoreboard64.png" width="50%"><br>
-            <span style="font-size: 0.7em">Score</span>
-          </div> -->
-          <div class="col hvr-push mx-2" onclick="window.location='s/';">
-            <img src="../../static/images/merchandise64.png" width="50%"><br>
-            <span style="font-size: 0.7em">Merch</span>
-          </div>
-      </div>
-    </nav>
-    <!-- End NavBar -->
+
     <br>
     <br>
     <br>
